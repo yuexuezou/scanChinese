@@ -1,0 +1,174 @@
+{
+  "file": "chinese_test_images\\dk_dljl.png",
+  "processing_time": 5.411533355712891,
+  "results": [
+    {
+      "text": "XT",
+      "confidence": 0.9757930259385983,
+      "box": [
+        [
+          224.0,
+          232.0
+        ],
+        [
+          260.0,
+          232.0
+        ],
+        [
+          260.0,
+          260.0
+        ],
+        [
+          224.0,
+          260.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "sharpened"
+    },
+    {
+      "text": "登录奖励",
+      "confidence": 0.9039723873138428,
+      "box": [
+        [
+          133.0,
+          7.0
+        ],
+        [
+          339.0,
+          7.0
+        ],
+        [
+          339.0,
+          69.0
+        ],
+        [
+          133.0,
+          69.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "gaussian_blur"
+    },
+    {
+      "text": "X100",
+      "confidence": 0.8552258610725403,
+      "box": [
+        [
+          336.0,
+          232.0
+        ],
+        [
+          392.0,
+          232.0
+        ],
+        [
+          392.0,
+          256.0
+        ],
+        [
+          336.0,
+          256.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "gaussian_blur"
+    },
+    {
+      "text": "X7",
+      "confidence": 0.5801710122202868,
+      "box": [
+        [
+          146.0,
+          232.0
+        ],
+        [
+          206.0,
+          232.0
+        ],
+        [
+          206.0,
+          258.0
+        ],
+        [
+          146.0,
+          258.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "contrast_enhanced"
+    },
+    {
+      "text": "X1",
+      "confidence": 0.4375513396878276,
+      "box": [
+        [
+          289.0,
+          235.0
+        ],
+        [
+          321.0,
+          235.0
+        ],
+        [
+          321.0,
+          255.0
+        ],
+        [
+          289.0,
+          255.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "original"
+    },
+    {
+      "text": "XTOO",
+      "confidence": 0.4128079414367676,
+      "box": [
+        [
+          336.0,
+          232.0
+        ],
+        [
+          392.0,
+          232.0
+        ],
+        [
+          392.0,
+          258.0
+        ],
+        [
+          336.0,
+          258.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "sharpened"
+    },
+    {
+      "text": "X1OO",
+      "confidence": 0.2613693177700043,
+      "box": [
+        [
+          336.0,
+          232.0
+        ],
+        [
+          392.0,
+          232.0
+        ],
+        [
+          392.0,
+          256.0
+        ],
+        [
+          336.0,
+          256.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "contrast_enhanced"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "file": "chinese_test_images\\test_1.png",
+  "processing_time": 1.472947359085083,
+  "results": [
+    {
+      "text": "中文识别测试",
+      "confidence": 0.8929441318926982,
+      "box": [
+        [
+          47.0,
+          45.0
+        ],
+        [
+          247.0,
+          45.0
+        ],
+        [
+          247.0,
+          87.0
+        ],
+        [
+          47.0,
+          87.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "gaussian_blur"
+    }
+  ]
+}

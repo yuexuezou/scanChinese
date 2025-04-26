@@ -1,0 +1,25 @@
+# 核心依赖
+opencv-python>=4.5.0
+numpy>=1.19.0
+jieba>=0.42.1
+shapely>=1.7.0
+
+# OCR引擎依赖 (按需安装)
+# Tesseract OCR
+pytesseract>=0.3.8
+# PaddleOCR
+paddleocr>=2.6.0
+# EasyOCR
+easyocr>=1.6.0
+# RapidOCR
+rapidocr_onnxruntime>=1.3.0
+
+# 新增OCR引擎依赖
+# MMOCR
+mmocr>=1.0.0
+# TrOCR (基于Transformers)
+transformers>=4.18.0
+# MangaOCR
+manga-ocr>=0.1.7
+# Donut (基于Transformers)
+donut-python>=1.0.9 

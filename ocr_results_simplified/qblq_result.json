@@ -1,0 +1,30 @@
+{
+  "file": "chinese_test_images\\qblq.png",
+  "processing_time": 1.6711888313293457,
+  "results": [
+    {
+      "text": "全部领取",
+      "confidence": 0.791351854801178,
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          177.0,
+          0.0
+        ],
+        [
+          177.0,
+          46.0
+        ],
+        [
+          0.0,
+          46.0
+        ]
+      ],
+      "engine": "easyocr",
+      "preprocessor": "original"
+    }
+  ]
+}
