@@ -271,6 +271,62 @@ for engine_name, engine_results in result.get("results_by_engine", {}).items():
         print(f"文本: {res.text}, 置信度: {res.confidence:.2f}")
 ```
 
+## 测试
+
+为了确保系统的稳定性和可靠性，我们提供了多种测试文件。测试覆盖了OCR基础模块、预处理器、以及各OCR引擎的功能。
+
+### 运行所有测试
+
+```bash
+python -m unittest discover tests
+```
+
+### 运行特定测试
+
+```bash
+# 测试预处理器
+python tests/test_preprocessor.py
+
+# 测试OCR基础模块
+python tests/test_ocr_base.py
+
+# 测试特定引擎
+python tests/test_tesseract.py
+python tests/test_easyocr.py
+python tests/test_paddle.py
+python tests/test_rapidocr.py
+
+# 测试多引擎整合
+python tests/test_multi_engine.py
+```
+
+### 运行独立测试（不依赖完整项目）
+
+对于缺少某些依赖的环境，我们提供了独立测试文件，可以在不安装所有OCR引擎的情况下测试部分功能：
+
+```bash
+# 测试预处理器（独立版本）
+python tests/test_isolated_preprocessor.py
+
+# 测试OCR基础模块（独立版本）
+python tests/test_isolated_ocr_base.py
+
+# 测试主模块（独立版本）
+python tests/test_isolated_scan_chinese.py
+```
+
+### 测试自定义图像
+
+您可以使用主程序对自己的图像进行测试：
+
+```bash
+# 使用所有可用的引擎
+python scan_chinese.py -i your_image.jpg -o test_results
+
+# 指定使用特定引擎
+python scan_chinese.py -i your_image.jpg -o test_results -e tesseract,easyocr
+```
+
 ## 许可证
 
 MIT 
